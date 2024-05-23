@@ -25,7 +25,7 @@ class AddMask( nn.Module ):
     def __init__( self ):
         super().__init__()
     def forward( self, x, pad_index ):
-        # here x is a batch of input sequences (not embeddings) with the shape of [ batch_size, seq_len]
+        # here x is a batch of input sequences (not embeddings) with the shape of [ batch_size, seq_len] KHOA
         mask = x == pad_index
         return mask
 
