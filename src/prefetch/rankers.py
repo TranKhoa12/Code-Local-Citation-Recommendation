@@ -1,6 +1,6 @@
 import os,sys,inspect
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
-# parent_parent_dir = os.path.dirname(os.path.dirname(current_dir))
+# parent_parent_dir = os.path.dirname(os.path.dirname(current_dir)) TDKHOA
 sys.path.insert(0, current_dir) 
 
 from tqdm import tqdm
